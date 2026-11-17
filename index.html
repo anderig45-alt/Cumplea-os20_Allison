@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz cumpleaños 20 ⭐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Música -->
+    <audio id="musica" src="musica.mp3" loop></audio>
+
+    <!-- Pantalla inicial -->
+    <section id="inicio" class="pantalla activa">
+        <h1>¡Feliz cumpleaños 20 Allison! ⭐</h1>
+        <p>Quisiera que vieras una pequeña sorpresa mas de mi...</p>
+
+        <div class="torta" id="torta">
+            <div class="vela">
+                <div class="llama"></div>
+            </div>
+            <div class="pastel pastel-top"></div>
+            <div class="pastel pastel-middle"></div>
+            <div class="pastel pastel-bottom"></div>
+            <div class="plato"></div>
+        </div>
+
+        <p class="instruccion">✨ Presiona la torta ✨</p>
+    </section>
+
+    <!-- Fuegos artificiales -->
+    <canvas id="fireworks"></canvas>
+
+    <!-- Primer mensaje -->
+    <section id="mensaje" class="pantalla">
+        <div class="carta">
+            <h2>Todo lo que hago es por ti</h2>
+            <p id="texto1"></p>
+            <button id="botonFotos" class="oculto">
+                Presiónalo aunque sea por última vez ❤️
+            </button>
+        </div>
+    </section>
+
+    <!-- Galería y mensaje final -->
+    <section id="recuerdos" class="pantalla">
+        <h1>La sonrisa y mirada que siempre voy a querer ver en ti ❤️</h1>
+
+        <div class="galeria">
+            <img src="img/foto1.jpg" alt="Recuerdo 1">
+            <img src="img/foto2.jpg" alt="Recuerdo 2">
+            <img src="img/foto3.jpg" alt="Recuerdo 3">
+            <img src="img/foto4.jpg" alt="Recuerdo 4">
+            <img src="img/foto5.jpg" alt="Recuerdo 5">
+            <img src="img/foto6.jpg" alt="Recuerdo 6">
+        </div>
+
+        <div class="mensaje-final">
+            <p id="texto2"></p>
+        </div>
+
+        <div class="corazones">❤️ 💗 ❤️</div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
